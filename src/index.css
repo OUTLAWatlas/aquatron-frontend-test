@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background: #f4f6fa;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.MuiDrawer-paper {
+  border-right: 0;
+}
+
+.MuiAppBar-root {
+  box-shadow: none;
+}
+
+.MuiPaper-root {
+  border-radius: 12px !important;
+}
+
+.MuiButton-containedPrimary {
+  background: #1565c0;
+}

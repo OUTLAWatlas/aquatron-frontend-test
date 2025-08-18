@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background: #101624;
+  color: #e3f2fd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  color: #00bcd4;
+  letter-spacing: 1px;
+}
+
+.dashboard-welcome {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #7c4dff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.dashboard-section {
+  margin-bottom: 2.5rem;
+}
+
+.device-data-box {
+  background: #18213a;
+  padding: 2rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.18);
+}
+
+.role-badge {
+  display: inline-block;
+  background: #00bcd4;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  margin-left: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 600px) {
+  .dashboard-welcome {
+    font-size: 1.2rem;
+  }
+  .device-data-box {
+    padding: 1rem;
+  }
+}
